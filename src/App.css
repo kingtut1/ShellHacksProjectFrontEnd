@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.LoginArea {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.ButtonSpacing {
+  margin-right: 5%;
+  margin-left: 5%;
+}
