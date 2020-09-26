@@ -1,9 +1,7 @@
 import React from 'react';
 import NavigationBar from './NavigationBar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import {Nav, Navbar} from 'react-bootstrap';
-import {Form, FormControl} from 'react-bootstrap';
-import {Button} from 'react-bootstrap';
+import HomePage from './HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -13,7 +11,7 @@ function App() {
       <NavigationBar/>
       <Router>
         <Switch>
-          
+          <Route path = "/home" component = { HomePage }/>
         </Switch>
       </Router>
     </React.Fragment>
