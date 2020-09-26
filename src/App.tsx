@@ -1,5 +1,6 @@
 import React from 'react';
 import NavigationBar from './NavigationBar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {Nav, Navbar} from 'react-bootstrap';
 import {Form, FormControl} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
@@ -8,10 +9,14 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <NavigationBar/>
-      <p> Hello </p>
-    </div>
+      <Router>
+        <Switch>
+          
+        </Switch>
+      </Router>
+    </React.Fragment>
   );
 }
 
