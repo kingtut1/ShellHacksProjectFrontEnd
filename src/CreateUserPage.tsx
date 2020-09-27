@@ -4,10 +4,12 @@ import Button from 'react-bootstrap/Button';
 
 export class CreateUserPage extends React.Component<{}, {}>
 {
+    componentDidMount(){
+        document.getElementById("navBar")!.style.display = "none";
+    }
     render() {
         return (
             <div>
-
                 <div>
                     <p> Create User </p>
                 </div>
@@ -30,21 +32,21 @@ export class CreateUserPage extends React.Component<{}, {}>
                             <Form.Label>Total Debt</Form.Label>
                             <Form.Control placeholder = ""/>
 
-                            <Form.Label>What's percentage of your income do you want to spend on debt</Form.Label>
+                            <Form.Label>What's percentage of your income do you want to spend ideally on debt</Form.Label>
                             <Form.Control  placeholder = "20%"/>
 
-                            <Form.Label>What's percentage of your income do you want to spend on savings/investments</Form.Label>
+                            <Form.Label>What's percentage of your income do you want to spend ideally on savings/investments</Form.Label>
                             <Form.Control  placeholder = "10%"/>
 
-                            <Form.Label>What's percentage of your income do you want to spend on spending</Form.Label>
+                            <Form.Label>What's percentage of your income do you want to spend ideally on spending</Form.Label>
                             <Form.Control  placeholder = "70%"/>
 
                         </Form.Group>
                     </Form>
                 </div>
                 <div>
-                    <Button className="ButtonSpacing"> Back </Button>
-                    <Button className="ButtonSpacing" variant="primary" type="submit"> Create Account </Button>
+                    <Button className="ButtonSpacing" href = "/login"> Back </Button>
+                    <Button className="ButtonSpacing" variant="primary" type="submit" href = "/home"> Create Account </Button>
                 </div>
 
             </div >
