@@ -10,8 +10,8 @@ export class CreateUserPage extends React.Component<{}, {}>
     render() {
         return (
             <div>
-                <div>
-                    <p> Create User </p>
+                <div className = "titleFix">
+                    <p> <strong> Create User </strong> </p>
                 </div>
 
                 <div className = "FormArea">
