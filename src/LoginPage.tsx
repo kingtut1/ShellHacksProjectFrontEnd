@@ -4,30 +4,18 @@ import Form from 'react-bootstrap/Form';
 import './LoginPage.css'
 
 export class LoginPage extends React.Component< any, any > {
-    /*
-    private userNameField = "";
-    private handleChange(event: React.FormEvent<HTMLFormElement>){
-        //this.setState({value: event.target.value});
-        this.state = {
-            userNameField: " ", 
-            passwordField: " ",
-        }
-        if(event.target.value === "userNameField")
-        {
-            
-        }
+    componentDidMount(){
+        //document.getElementsByTagName("nav")!.item(0)!.classList.add("hidden");
     }
-    private handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        alert('A name was submitted: ' + this.state.value);
-        event.preventDefault();
+    componentWillUnmount(){
+
     }
-    */
-    
     render() {
         return (
             <div>
                 <p> Logo Here </p>
                 <div>
+
                 </div>
                 <div className="LoginArea">
                     <Form>
@@ -37,8 +25,8 @@ export class LoginPage extends React.Component< any, any > {
                         <Form.Group controlId="formBasicPassword">
                             <Form.Control type="password" placeholder="Password" name = "passwordField" />
                         </Form.Group>
-                        <Button className="ButtonSpacing" variant="primary" type="submit"> Sign In </Button>
-                        <Button className="ButtonSpacing"> Create Account </Button>
+                        <Button className="ButtonSpacing" variant="primary" type="submit" href="/home"> Sign In </Button>
+                        <Button className="ButtonSpacing" href = "/createAccount"> Create Account </Button>
                     </Form>
                 </div>
             </div>

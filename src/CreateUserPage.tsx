@@ -7,7 +7,6 @@ export class CreateUserPage extends React.Component<{}, {}>
     render() {
         return (
             <div>
-
                 <div>
                     <p> Create User </p>
                 </div>
@@ -43,8 +42,8 @@ export class CreateUserPage extends React.Component<{}, {}>
                     </Form>
                 </div>
                 <div>
-                    <Button className="ButtonSpacing"> Back </Button>
-                    <Button className="ButtonSpacing" variant="primary" type="submit"> Create Account </Button>
+                    <Button className="ButtonSpacing" href = "/login"> Back </Button>
+                    <Button className="ButtonSpacing" variant="primary" type="submit" href = "/home"> Create Account </Button>
                 </div>
 
             </div >
