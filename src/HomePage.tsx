@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import {Chart} from 'primereact/chart';
 
 import './HomePage.css';
@@ -44,6 +45,7 @@ class HomePage extends React.Component<{},{}>{
                             <p className = "CenterText">Savings/Investments</p>
                             <Form.Control placeholder="Savings/Investments" />
                         </Form.Group>
+                        <Button className="ButtonSpacing"> Submit </Button>   
                     </Form>
                </div>
            </div>
