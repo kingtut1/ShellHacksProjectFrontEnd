@@ -14,3 +14,7 @@
 .hidden{
     display: none;
 }
+.titleFix{
+    font-size: medium;
+    text-align: center;
+}
