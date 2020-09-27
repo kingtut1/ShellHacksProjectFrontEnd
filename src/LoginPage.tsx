@@ -22,8 +22,8 @@ export class LoginPage extends React.Component< any, any > {
                         <Form.Group controlId="formBasicPassword">
                             <Form.Control type="password" placeholder="Password" name = "passwordField" />
                         </Form.Group>
-                        <Button className="ButtonSpacing" variant="primary" type="submit" href="/home"> Sign In </Button>
-                        <Button className="ButtonSpacing" href = "/createAccount"> Create Account </Button>
+                        <Button className="ButtonSpacingLogin" variant="primary" type="submit" href="/home"> Sign In </Button>
+                        <Button className="ButtonSpacingLogin" href = "/createAccount"> Create Account </Button>
                     </Form>
                 </div>
             </div>

@@ -3,14 +3,13 @@
     margin-left: 10%;
 }
   
-.ButtonSpacing {
+.ButtonSpacingLogin {
     margin-right: 5%;
     margin-left: 5%;
 }
-
 .FormArea{
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .hidden{
     display: none;

@@ -15,8 +15,8 @@ function App() {
       <NavigationBar/>
       <Router>
         <Switch>
+          <Route exact path = "/" component = { LoginPage }/>
           <Route path = "/home" component = { HomePage }/>
-          <Route path = "/login" component = { LoginPage }/>
           <Route path = "/insights" component = {InsightPage}/>
           <Route path = "/settings" component = {SettingsPage}/>
           <Route path = "/createAccount" component = {CreateUserPage} />
