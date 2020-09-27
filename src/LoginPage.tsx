@@ -5,10 +5,7 @@ import './LoginPage.css'
 
 export class LoginPage extends React.Component< any, any > {
     componentDidMount(){
-        //document.getElementsByTagName("nav")!.item(0)!.classList.add("hidden");
-    }
-    componentWillUnmount(){
-
+        document.getElementById("navBar")!.style.display = "none";
     }
     render() {
         return (
