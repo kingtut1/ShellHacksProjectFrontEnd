@@ -1,6 +1,7 @@
 .InsightsArea {
     margin-right: 10%;
     margin-left: 10%;
+    padding: 2%;
   }
 
 body{ font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +10,7 @@ body{ font-family: Arial, Helvetica, sans-serif;
 h1 {text-align: center;
 }
 
-.box{ display: inline-block;
+.box{ display: block;
     margin: 5%;
     outline: auto;
     padding: 1%;
@@ -21,5 +22,5 @@ p em {
 }
  ul {
      text-align: left;
-     font-size: 85%;
+     font-size: 115%;
  }
