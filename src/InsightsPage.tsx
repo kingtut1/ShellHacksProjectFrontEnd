@@ -29,7 +29,7 @@ const chartData2 = {
     labels: ['Entertainment', 'Shopping', 'Travel', 'Food and Drinks'],
     datasets: [
         {
-            data: [25, 40, 35, 40],
+            data: [25, 20, 35, 40],
             backgroundColor: [
                 "#42A5F5",
                 "#66BB6A",
@@ -76,30 +76,18 @@ class InsightPage extends React.Component<{}, {}>
                     </Card>
                     <Card style={{ width: '80%' }}>
                         <Card.Body>
-                            <Card.Title>A closer look at your spending</Card.Title>
+                            <Card.Title>A closer look at your spending this month</Card.Title>
                             <Chart type="pie" data={chartData} />
                         </Card.Body>
                     </Card>
                 </CardDeck>
-                <div className="box">
-                    <Card.Title>A closer look at your spending in the past six months</Card.Title>
+                <br></br>
+                <Card>
+                    <Card.Title>Your spending in the past six months</Card.Title>
                     <Chart type="pie" data={chartData2} />
 
-                </div>
-                <div className="box">
-                    <p>These are your insights</p>
-                </div>
-                <div className="box">
-                    <p>These are your insights</p>
-                </div>
-                <div className="box">
-                    <p>These are your insights</p>
-                </div>
-                <div className="box">
-                    <p>These are your insights</p>
-                </div>
-
-
+                </Card>
+                
             </div>
         )
     }
