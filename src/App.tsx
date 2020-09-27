@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import InsightPage from './InsightsPage';
 import SettingsPage from './SettingsPage';
+import CreateUserPage from './CreateUserPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path = "/login" component = { LoginPage }/>
           <Route path = "/insights" component = {InsightPage}/>
           <Route path = "/settings" component = {SettingsPage}/>
+          <Route path = "/createAccount" component = {CreateUserPage} />
         </Switch>
       </Router>
     </React.Fragment>

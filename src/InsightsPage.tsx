@@ -4,7 +4,7 @@ class InsightPage extends React.Component< {}, {}>
 {
     render() {
         return(
-            <p> Insights </p>
+            <p> Insightsssssss </p>
         )
     }
 }
