@@ -45,8 +45,8 @@ export class CreateUserPage extends React.Component<{}, {}>
                     </Form>
                 </div>
                 <div>
-                    <Button className="ButtonSpacing" href = "/login"> Back </Button>
-                    <Button className="ButtonSpacing" variant="primary" type="submit" href = "/home"> Create Account </Button>
+                    <Button className="ButtonSpacingLogin" href = "/"> Back </Button>
+                    <Button className="ButtonSpacingLogin" variant="primary" type="submit" href = "/home"> Create Account </Button>
                 </div>
 
             </div >
