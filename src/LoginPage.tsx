@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import './LoginPage.css'
 
 export class LoginPage extends React.Component< any, any > {
     /*
@@ -21,6 +22,7 @@ export class LoginPage extends React.Component< any, any > {
         event.preventDefault();
     }
     */
+    
     render() {
         return (
             <div>

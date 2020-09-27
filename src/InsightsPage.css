@@ -1,0 +1,25 @@
+.InsightsArea {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+body{ font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 {text-align: center;
+}
+
+.box{ display: inline-block;
+    margin: 5%;
+    outline: auto;
+    padding: 1%;
+    position: relative;
+}
+
+p em {
+    text-decoration: wavy;
+}
+ ul {
+     text-align: left;
+     font-size: 85%;
+ }
