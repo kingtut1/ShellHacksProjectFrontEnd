@@ -1,44 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Shell Hacks 2020
+This project was created during a 36 hour hackathon at FIU. 
 
-## Available Scripts
+Our goal was to promote financial literacy since, COVID-19 has left millions unemployed and with uncertain financial future. We believe that by promoting financial literacy through an easy to use and insightful web-application we can serve the communities most affected. We plan to accomplish this by creating a picture of your financial health so users can improve their financial literacy. We noticed that many affected people might want to know how they can minimize their spending due to these times. 
 
-In the project directory, you can run:
+## Login Page
+Allows the user to log into the application. 
 
-### `yarn start`
+## Create Account Page
+We ask for basic information and then we ask for their monthly income, total debt along with other questions about their ideal spending distributions. If the user doesn’t know we use the pre populated 20, 10, 70 rule. We then use the information they input monthly to track their spending across time and compare to the ideal budgeting rule to give them an idea on how well they are working toward their goal.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Home Page
+The homepage provides a dashboard of their current spending this month which is updated manually by the user. Of course, in the future this could be auto updated if we configure bank account api’s. We used prime react bar graphs to showcase to the user how much they’ve been spending on specific categories. In the future we also plan to aggregate these categories by needs and wants to further simplify spending and incentives better spending habits. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Insights Page
+The insights page will give the user a more indepth view of their spendings. Many times I have wondered where my money went last month I had x amount left over. This page plans to tackle that problem by giving you access to previous months spendings. We plan on adding a feature where we suggest plans of action for you so, that you get a better understanding of some financial moves you can make.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Settings Page
+The settings page was built to be able to modify user preferences or information. The page should accept input from the user and set those values in the database. The page asks you for your Monthly income, Total Debt, what percentage of your income the user wants to spend ideally on debt, and allows the user to change their password. Most of this information was required during account creation.
